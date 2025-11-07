@@ -1,0 +1,73 @@
+body {
+    font-family: montserrat !important;
+    scroll-behavior: smooth;
+    font-size: 12px; 
+}
+.navbar-logo {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+  }
+
+  @media (max-width: 768px) {
+    .navbar-logo {
+      height: 32px;
+    }
+  }
+  .hero-section {
+    background-image: url(images/Marketing\ Portfolio\ and\ Resume\ Website\ in\ Black\ and\ White\ Neon\ Green\ Professional\ Style\ \(4\).png);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.btn-primary {
+    background-color: #ff6400 !important;
+    border-color: #ff6400 !important;
+}
+
+.animated-text {
+  font-size: 5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+#dynamic-text {
+  position: relative;
+  display: inline-block;
+  transition: opacity 0.8s ease-in-out;
+}
+.lead {
+    font-size: 1.25rem !important;
+    font-weight: 300 !important;
+    text-align: justify !important;
+}
+.p2 {
+  border-bottom: #ff6400 3px solid;
+  padding-bottom: 12px !important;
+}
+.text-uppercase {
+  border-bottom: #ff6400 3px solid;
+}
+.service {
+  padding-bottom: 10px !important;
+}
+.text-prtfolio {
+  text-align: left !important;
+}
+.my-portfolio {
+  padding-bottom: 12px !important;
+}
+.nav-link {
+  color: white !important;
+}
+.about {
+  padding-bottom: 12px !important;
+}
+.navbar-nav .nav-link:hover {
+    color: #ff6400 !important;
+  }
